@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  calling_conventions.cpp
+  Generating code
+  All 9 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  calling_conventions.vcxproj -> C:\Users\IEUser\source\repos\4.understanding_isa\calling_conventions\Release\calling_conventions.exe

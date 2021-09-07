@@ -1,0 +1,7 @@
+objdump -p /bin/ls | grep NEEDED     
+readelf -d /bin/ls | grep Shared     
+rabin2 -l /bin/ls                   
+
+objdump -T /bin/ls | grep UND
+readelf -s /bin/ls | grep UND
+rabin2 -i /bin/ls        

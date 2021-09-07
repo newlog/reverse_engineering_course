@@ -1,0 +1,15 @@
+calling conventions:
+
+Win32 (__stdcall)
+Function parameters are passed on the stack, pushed right to left, and the callee cleans the stack.
+Native C++ method call (also known as thiscall)
+Function parameters are passed on the stack, pushed right to left, the "this" pointer is passed in the ecx register, and the callee cleans the stack.
+COM (__stdcall for C++ method calls)
+Function parameters are passed on the stack, pushed right to left, then the "this" pointer is pushed on the stack, and then the function is called. The callee cleans the stack.
+__fastcall
+The first two DWORD-or-smaller arguments are passed in the ecx and edx registers. The remaining parameters are passed on the stack, pushed right to left. The callee cleans the stack.
+__cdecl
+Function parameters are passed on the stack, pushed right to left, and the caller cleans the stack. The __cdecl calling convention is used for all functions with variable-length parameters.
+
+
+https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/x86-architecture#x86-flags
