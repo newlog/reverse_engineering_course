@@ -1,4 +1,7 @@
-﻿This is a 3-month master degree level reverse engineering introduction course covering both theory and practice. The contents of the course follow:  
+﻿Reverse Engineering Course
+-----
+
+This is a 3-month master degree level reverse engineering introduction course covering both theory and practice. The contents of the course follow:  
 
 
 1. Introduction to Memory Architecture
