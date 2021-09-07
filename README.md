@@ -1,7 +1,17 @@
 ﻿Reverse Engineering Course
 -----
 
-This is a 3-month master degree level reverse engineering introduction course covering both theory and practice. The contents of the course follow:  
+This is a 3-month master degree level reverse engineering introduction course covering both theory and practice. 
+
+For some reason, the GitHub PDF viewer does not properly visualize some of the
+modules. It is recommended to download the PDFs and visualize them with your
+local PDF viewer.
+
+Modules 6, 7, and 8 are developed by [pancake](https://github.com/radare).
+Module 9 is developed by [zlowram](https://github.com/zlowram), [giomismo](https://github.com/giomismo), and myself for an [r2con](https://rada.re/con/) training 2017 IIRC.
+
+
+The contents of the course follow:  
 
 
 1. Introduction to Memory Architecture
